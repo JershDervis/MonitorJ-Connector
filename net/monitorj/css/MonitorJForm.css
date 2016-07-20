@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2016, 8:28:29 PM
+    Author     : Josh
+*/
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(source-sans-pro.regular.ttf);
+}
+
+//Change the Body of the Form (e.g. Background, etc)
+.root {
+    -fx-background-color: #ECF0F1;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.button {
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-padding: 10 34;
+    -fx-border-style: none;
+    -fx-background-color: #34495E;
+}
+.button:hover {
+    -fx-background-color: #2C3E50;
+}
+.button:pressed {
+    -fx-background-color: #233140;
+}
+
+.webView {
+    -fx-background-color: #ECF0F1;
+}
